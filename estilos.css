@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://wallpapers.com/images/hd/need-for-speed-pc-3vdugv6sgv0vgekl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: rgba
+}
+
+form {
+  background: #1734ad;
+background: linear-gradient(316deg, rgba(23, 53, 173, 0.63) 0%, rgba(0, 0, 0, 0.83) 99%);
+  padding: 20px 30px;
+  border-radius: 30px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-style: italic;
+  text-align: center;
+  color: #ffffff;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.radio-group,
+.checkbox-group {
+  margin-top: 10px;
+}
+
+.radio-group label,
+.checkbox-group label {
+  font-weight: normal;
+  margin-right: 15px;
+}
+
+textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #02d1c0;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 10px;
+  
+}
+
+button:hover {
+  background-color: #00b3a4;
+}
