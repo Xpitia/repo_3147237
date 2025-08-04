@@ -7,12 +7,17 @@ body {
 }
 
 .container {
-  background-color: rgba
+  background-color: rgba(red, green, blue, alpha);
 }
 
 form {
   background: #1734ad;
-background: linear-gradient(316deg, rgba(23, 53, 173, 0.63) 0%, rgba(0, 0, 0, 0.83) 99%);
+  background:
+    linear-gradient(
+      316deg,
+      rgba(23, 53, 173, 0.63) 0%,
+      rgba(0, 0, 0, 0.83) 99%
+    );
   padding: 20px 30px;
   border-radius: 30px;
   max-width: 500px;
@@ -23,14 +28,14 @@ background: linear-gradient(316deg, rgba(23, 53, 173, 0.63) 0%, rgba(0, 0, 0, 0.
 h2 {
   font-style: italic;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 label {
   display: block;
   margin-top: 15px;
   font-weight: bold;
-  color: #ffffff;
+  color: #fff;
 }
 
 input[type="text"],
@@ -73,7 +78,6 @@ button {
   cursor: pointer;
   font-size: 16px;
   line-height: 10px;
-  
 }
 
 button:hover {
